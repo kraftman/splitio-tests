@@ -27,9 +27,11 @@
     ]
   },
   "dependencies": {
+    "@splitsoftware/splitio": "^10.5.1",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "fastify": "^1.12.1",
+    "fetch": "^1.1.0",
     "morgan": "^1.9.1"
   },
   "devDependencies": {

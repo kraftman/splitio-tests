@@ -3,9 +3,11 @@
 const fastify = require('fastify')({
   logger: true,
 });
-const home = require('./routes/home.js');
+const splits = require('./routes/splits-router.js');
+const environments = require('./routes/environments-router.js');
 
-fastify.register(home)
+fastify.register(splits)
+fastify.register(environments)
 
 const start = async () => {
   try {
