@@ -1,6 +1,6 @@
 'use strict';
 
-const splitApi = require('../../bl/split-api.js');
+const splitApi = require('../../external/split-api.js');
 
 const opts = {
   schema: {
